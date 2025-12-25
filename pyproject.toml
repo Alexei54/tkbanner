@@ -1,17 +1,19 @@
 [build-system]
-requires = ["setuptools>=61.0"]
+requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "tkbanner"
 version = "0.1.0"
-description = "Animated video banner for tkinter"
+description = "Video banner with animated frames using Tkinter"
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.7"
+authors = [
+  { name = "Олексій Демчук" }
+]
 dependencies = [
-    "Pillow"
+  "Pillow"
 ]
 
-authors = [
-    { name = "Alexei54" }
-]
+[project.urls]
+Homepage = "https://github.com/Alexei54/tkbanner"
