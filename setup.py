@@ -5,7 +5,7 @@ setup(
     version="0.1.0",
     author="Alexei54",
     description="Animated video banner for tkinter",
-    long_description=open("README.md", encoding="utf-8").read(),
+    long_description=open("pyproject.toml", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
     packages=find_packages(),
     install_requires=[
